@@ -1,11 +1,11 @@
 name: CI Pipeline
 on:
   workflow_dispatch:
-   inputs:
-    Skip-push:
-     type:boolean
-     description:Skip docker push
-     default:false
+    inputs:
+      Skip-push:
+      type: boolean
+      description: Skip docker push
+      default: false
 
 jobs:
   lint-and-test:
